@@ -1,5 +1,4 @@
 const createServer = require('../createServer');
-const injections = require('../../injections');
 
 describe('HTTP server', () => {
   it('should response 404 when request unregistered route', async () => {
